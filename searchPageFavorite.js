@@ -38,8 +38,8 @@
 				
 			// calulate width for our card slider
 			var howMany    = $('.preview-card').length,
-					howWide    = $('.preview-card').width() + 42,
-					totalWidth = howMany * howWide;
+			    howWide    = $('.preview-card').width() + 42,
+			    totalWidth = howMany * howWide;
 
 			$('.card-slider').css({'width' : totalWidth + '%'});
 
