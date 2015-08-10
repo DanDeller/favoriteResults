@@ -61,8 +61,7 @@ function prior(checkCity, state) {
 	return cities.join('');
 } // end prior()
 
-// create function to handle card events once 
-// getJSON is done
+// create function to handle card events once getJSON is done
 function cardEvents() {
 	var tracker   = 0,
 	    width     = $(document).width(),
