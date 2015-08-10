@@ -27,9 +27,9 @@
 
 			// create quick way to check for verified results and display the checky icon
 			var firstCardInitial = person[i].first_name.charAt(0),
-					lastCardName     = person[i].last_name,
-					firstInitial     = window.firstName.charAt(0),
-					lastName         = window.lastName;
+			    lastCardName     = person[i].last_name,
+			    firstInitial     = window.firstName.charAt(0),
+			    lastName         = window.lastName;
 			  	
 			if (firstInitial === firstCardInitial && lastName === lastCardName) {
 				var checky = $('.preview-card .checky');
@@ -65,8 +65,8 @@
 	// getJSON is done
 	function cardEvents() {
 		var tracker   = 0,
-				width     = $(document).width(),
-				scrollNum = width < 480 ? '17em' : '75.9%';
+		    width     = $(document).width(),
+		    scrollNum = width < 480 ? '17em' : '75.9%';
 
 		$('#cards-preview').addClass('pad-it');
 		$('.cards-wrap').addClass('open-wrap');
