@@ -118,18 +118,17 @@
 		});
 
 		// swipe events
-		$('.preview-card').swipe( {
-      swipe: function(event, direction) {
-    		if (direction === 'left') {
-    			tracker += 4;
-    			$('.card-slider').animate({'left' : '-=' + scrollNum});
-      	}
-      	else if (direction === 'right') {
-      		if (tracker > 0) {
-      			tracker -= 4;
-      			$('.card-slider').animate({'left' : '+=' + scrollNum});
-      		}
-      	}
-      }
-    });
+		$('.preview-card').swipe({
+			swipe: function(event, direction) {
+    				if (direction === 'left') {
+    				tracker += 4;
+    				$('.card-slider').animate({'left' : '-=' + scrollNum});
+	      			} else if (direction === 'right') {
+		      			if (tracker > 0) {
+		      				tracker -= 4;
+		      				$('.card-slider').animate({'left' : '+=' + scrollNum});
+		      			}
+	      			}
+	      		}
+	    	});
 	} // end cardEvents()
