@@ -1,9 +1,9 @@
 // create our url structure and gather other items for card slider
 	var searchResults = '/search/resultsJSON/' + state + '/' + lastName + '/' + firstName,
-			headCount     = 0,
-			output        = '',
-			checkCity,
-			state;
+	    headCount     = 0,
+	    output        = '',
+	    checkCity,
+	    state;
 
 	// grab the data via getJSON and...
 	$.getJSON(searchResults, function(json) {
