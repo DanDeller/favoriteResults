@@ -1,4 +1,4 @@
-// FAVORITE SECTION - INTEGRATE WITH RESULTS PAGE JS
+// FAVORITE SECTION - INTEGRATE WITH SEARCH PAGE JS
 
 var checkCookie = getCookie('favorite');
 if (checkCookie) {
